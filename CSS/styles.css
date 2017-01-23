@@ -1,9 +1,11 @@
-
-.contact {
+#results {
+  display:none;
+}
+.yourname {
   cursor: pointer;
   color: #0088cc;
 }
 
-.contact:hover {
+.yourname:hover {
   text-decoration: underline;
 }
