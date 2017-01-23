@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script type="text/javascript" src="JS/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="JS/scripts.js"></script>
+    <title>Places You've Been</title>
+  </head>
+  <body>
+   <div class="container">
+     <form id="user-input">
+       <h1>Tell us about the places you've been!</h1>
+       <label for="firstName">First name:</label>
+       <input type="text" id="firstName">
+       <label for="lastName">Last name:</label>
+       <input type="text" id="lastName">
+       <label for="location">Where did you go?</label>
+       <input type="text" id="location">
+       <label for="landmarks">Interesting landmarks:</label>
+       <input type="text" id="landmarks">
+       <label for="when">When did you go?</label>
+       <input type="text" id="when">
+       <label for="notes">Anything else you'd like to add?</label>
+       <input type="text" id="notes">
+       <button type="submit" class="btn btn-primary">Submit!</button>
+     </form>
+     <p class="yourname"></p>
+     <div id="results">
+       Places you have been:<ul id="showLocation"></ul>
+       Things you liked:<ul id="showLandmarks"></ul>
+       You went:<ul id="showWhen"></ul>
+       Notes:<ul id="showNotes"></ul>
+   </div>
+  </body>
+</html>
